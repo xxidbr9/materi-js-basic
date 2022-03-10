@@ -39,6 +39,18 @@ console.log(note);
 note += " saya seorang " + pekerjaan
 console.log(note)
 
+// jangan pernah merubah nilai
+note = 2
+console.log(note)
+
+let nilaiHarian = "80"
+
+let nilaiHarianNumber = parseInt(nilaiHarian)
+
+console.log(50, typeof parseInt(nilaiHarian))
+console.log(51, typeof +nilaiHarian) // merubah nilai dari string ke int
+console.log(52, typeof nilaiHarianNumber.toString()); // toString => build function
+
 // const
 // const itu constanta = konstan / tidak bisa di isi ulang
 const menuMakan = "bubur"

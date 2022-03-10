@@ -68,7 +68,7 @@ console.log(67, isTrueOr); // false
 
 // NOR (not or)
 // Kebalikan dari or
-console.log(71,!isTrueOr);
+console.log(71, !isTrueOr);
 
 
 // STRING
@@ -86,9 +86,9 @@ console.log(note)
 
 let hari = "juma\'t"
 console.log(hari)
-
-// interpolation string, $ untuk memanggil variable, cuma berlaku di backtick ~
-note = `${note} agama di hari ${hari + " ditanggal "+ 10}`
+let b = 2
+// interpolation string, $ untuk memanggil variable / membedakan kalau di dalam {} itu sebuah code js, cuma berlaku di backtick ~
+note = `${note} agama di hari ${hari + " ditanggal " + 10}, ${b += 2}`
 console.log(note)
 
 
@@ -99,3 +99,6 @@ console.log(gaji);
 // null, biasa buat handle error, untuk nilai kosong
 let rumah = null;
 console.log(rumah);
+
+// array []
+// object {}

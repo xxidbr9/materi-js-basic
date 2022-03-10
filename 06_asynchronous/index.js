@@ -5,8 +5,8 @@ const withCallback = (a, b, callback) => { // function di taruh di dalam argumen
     jumlah += a + b
     callback(jumlah) // () disini untuk menjalakan
   }, 500) // karena dia menunggu 0.5 detik
-}
-
+} // udah dilupakan
+ 
 
 const hasil = (jumlah) => { // udah nunggu .5 detik, es6 => setelah 2015
   withCallback(jumlah, 10, (jumlah2) =>
